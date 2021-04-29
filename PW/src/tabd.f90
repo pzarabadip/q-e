@@ -99,10 +99,10 @@ FUNCTION hubbard_occ( psd )
      CASE( 'C'  )
         hubbard_occ = 2.d0
      !
-     CASE( 'N', 'As' )
+     CASE( 'N', 'As', 'P' )
         hubbard_occ = 3.d0
      !
-     CASE( 'O'  )
+     CASE( 'O', 'S'  )
         hubbard_occ = 4.d0
      !
      CASE( 'H'  )

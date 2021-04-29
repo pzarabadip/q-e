@@ -60,6 +60,9 @@ FUNCTION set_hubbard_n( psd ) RESULT( hubbard_n )
      CASE( 'Ga' ) 
         !
         hubbard_n =  3
+     CASE( 'P', 'S' )
+        !
+        hubbard_n =  3
         !
      CASE ( 'In', 'As' )
         ! 
